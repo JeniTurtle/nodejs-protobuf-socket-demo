@@ -1,0 +1,7 @@
+package cover;
+syntax = "proto3";
+
+message Socket {
+    string request_field = 1; // becomes requestField
+    string receive_field = 2; // becomes receiveField
+}
